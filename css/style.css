@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/pexels-monstera-6621424.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-bar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    text-align: right;
+    padding: 20px 150px;
+}
+ul{
+    width: 100%;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+    border-bottom: 1px solid transparent;
+}
+.menu li a:hover{ 
+    color: #fff;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #fff;
+}
+.divison{
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+.divison h1{
+    font-size: 6rem;
+    font-family: sans-serif;
+    margin: 15px ;
+}
+.divison h2{
+    padding: 0px;
+    margin: 1px;
+}
+.buttongh{
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 40px 10px 40px; 
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.buttongh:hover{
+    color: #333;
+    background-color: #fff;
+}
+.divison p{
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: light;
+}
+.div3{
+    display: flex;
+    padding: 50px 150px;
+    font-family: 'Signika Negative', sans-serif;;
+}
+.div3 hr{
+    width: 50px;
+    height: 3px;
+    border: none;
+    background-color: orange;
+}
+.div3 .card{
+    text-align: center;
+    padding: 30px 15px;
+}
+.div3 .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div3 i{
+    padding: 17px 18px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    font-size: 25px;
+    color: orange;
+}
+.div3 h3{
+    margin: 3px 0px;
+    
+}
+.div3 p{
+    font-weight: light;
+}
+.div3 .center{
+    text-align: center;
+    width: 100%;
+}
+.appdetails{
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.aboutapp h2{
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.aboutapp{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.aboutapp p{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 14px;
+    
+     
+}
+
+.imges img{  
+    width: 90px;    
+}
+.test{
+   
+    background-image: url(../images/backgroundreviwe.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+.overlay{
+    background-color: rgba(41, 5, 44, 0.836);
+    padding: 100px 150px;
+}
+.overlay img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 50px;
+
+}
+.spans{
+    text-align: center;
+}
+.ico{
+    padding: 1px 10px;
+    border: none;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 5px;
+}
+.dull{
+    background-color: rgb(150, 150, 150);
+}
+.p2{
+    font-family: 'Signika Negative', sans-serif;
+}
+.contanier{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+.contanier hr{
+    width: 50px;
+    height: 3px;
+    border: none;
+    background-color: orange;
+}
+.contanier h3{
+    margin: 3px 0px;
+}
+.browse{
+    text-align: center;
+    width: 100%;
+}
+.cuisines{
+    display: flex;
+
+}
+.cuisines img{
+    width: 20%;
+    height: 250px;
+    
+}
+
+.maindiv{
+    
+    display: flex;
+    text-align: center;
+    padding: 150px 0px;
+    font-size: 30px;
+
+    
+}
+.maindiv .count{
+    width: 25%;
+}
+.con{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.over{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.con:hover .over{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.con img{
+    width: 100%;
+}
+.text{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
